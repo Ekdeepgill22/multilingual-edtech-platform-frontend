@@ -27,28 +27,27 @@ const HeroSection = () => {
       }}
     >
       {/* Globe Background - centered behind title and tagline */}
-<div className="absolute inset-0 flex justify-center items-center pointer-events-none z-0 opacity-15">
-  <div className="w-80 h-80 sm:w-96 sm:h-96 lg:w-[450px] lg:h-[450px] relative">
-    <svg
-      viewBox="0 0 400 400"
-      className="w-full h-full animate-pulse"
-      style={{
-        animationDuration: '6s',
-        animationDelay: '0.5s'
-      }}
-            >
-              {/* Latitude lines */}
-              <ellipse cx="200" cy="200" rx="180" ry="60" fill="none" stroke="#FF5722" strokeWidth="1.5" />
-              <ellipse cx="200" cy="200" rx="180" ry="120" fill="none" stroke="#FF5722" strokeWidth="1" />
-              <ellipse cx="200" cy="200" rx="180" ry="180" fill="none" stroke="#FF5722" strokeWidth="1.5" />
+      <div className="absolute inset-0 flex justify-center items-center pointer-events-none z-0 opacity-15">
+        <div className="w-80 h-80 sm:w-96 sm:h-96 lg:w-[450px] lg:h-[450px] relative">
+          <svg
+            viewBox="0 0 400 400"
+            className="w-full h-full animate-pulse"
+            style={{
+              animationDuration: '6s',
+              animationDelay: '0.5s'
+            }}
+          >
+            {/* Latitude lines */}
+            <ellipse cx="200" cy="200" rx="180" ry="60" fill="none" stroke="#FF5722" strokeWidth="1.5" />
+            <ellipse cx="200" cy="200" rx="180" ry="120" fill="none" stroke="#FF5722" strokeWidth="1" />
+            <ellipse cx="200" cy="200" rx="180" ry="180" fill="none" stroke="#FF5722" strokeWidth="1.5" />
 
-              {/* Longitude lines */}
-              <ellipse cx="200" cy="200" rx="60" ry="180" fill="none" stroke="#FF5722" strokeWidth="1.5" />
-              <ellipse cx="200" cy="200" rx="120" ry="180" fill="none" stroke="#FF5722" strokeWidth="1" />
-              <path d="M 200 20 Q 260 200 200 380 Q 140 200 200 20" fill="none" stroke="#FF5722" strokeWidth="1" />
-              <path d="M 200 20 Q 320 200 200 380 Q 80 200 200 20" fill="none" stroke="#FF5722" strokeWidth="0.8" />
-            </svg>
-          </div>
+            {/* Longitude lines */}
+            <ellipse cx="200" cy="200" rx="60" ry="180" fill="none" stroke="#FF5722" strokeWidth="1.5" />
+            <ellipse cx="200" cy="200" rx="120" ry="180" fill="none" stroke="#FF5722" strokeWidth="1" />
+            <path d="M 200 20 Q 260 200 200 380 Q 140 200 200 20" fill="none" stroke="#FF5722" strokeWidth="1" />
+            <path d="M 200 20 Q 320 200 200 380 Q 80 200 200 20" fill="none" stroke="#FF5722" strokeWidth="0.8" />
+          </svg>
         </div>
       </div>
 
