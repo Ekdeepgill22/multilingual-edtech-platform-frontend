@@ -100,51 +100,51 @@ const HeroSection = () => {
             <div className="space-y-6">
 
               {/* Feature Card 1 */}
-              <div className={`transition-all duration-700 delay-800 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 group">
+              <div className={`transition-all duration-700 delay-700 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
+                <div className="bg-gradient-to-br from-white/10 via-white/5 to-transparent backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:from-white/15 hover:via-white/8 hover:to-white/5 transition-all duration-300 group shadow-xl">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0">
-                      <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
                         <Upload className="w-6 h-6 text-white" />
                       </div>
                     </div>
                     <div>
                       <h3 className="text-white font-medium text-lg mb-2">Upload & Analyze Handwriting</h3>
-                      <p className="text-gray-400 text-sm font-light">Transform your handwritten notes into digital insights with AI-powered analysis.</p>
+                      <p className="text-gray-300 text-sm font-light">Transform your handwritten notes into digital insights with AI-powered analysis.</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               {/* Feature Card 2 */}
-              <div className={`transition-all duration-700 delay-1000 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 group">
+              <div className={`transition-all duration-700 delay-800 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
+                <div className="bg-gradient-to-br from-white/10 via-white/5 to-transparent backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:from-white/15 hover:via-white/8 hover:to-white/5 transition-all duration-300 group shadow-xl">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0">
-                      <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
                         <Mic className="w-6 h-6 text-white" />
                       </div>
                     </div>
                     <div>
                       <h3 className="text-white font-medium text-lg mb-2">Voice Practice with AI</h3>
-                      <p className="text-gray-400 text-sm font-light">Perfect pronunciation and fluency through interactive AI conversation partners.</p>
+                      <p className="text-gray-300 text-sm font-light">Perfect pronunciation and fluency through interactive AI conversation partners.</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               {/* Feature Card 3 */}
-              <div className={`transition-all duration-700 delay-1200 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-                <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 group">
+              <div className={`transition-all duration-700 delay-900 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
+                <div className="bg-gradient-to-br from-white/10 via-white/5 to-transparent backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:from-white/15 hover:via-white/8 hover:to-white/5 transition-all duration-300 group shadow-xl">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0">
-                      <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                      <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
                         <BookOpen className="w-6 h-6 text-white" />
                       </div>
                     </div>
                     <div>
                       <h3 className="text-white font-medium text-lg mb-2">Multilingual Grammar Feedback</h3>
-                      <p className="text-gray-400 text-sm font-light">Receive personalized corrections and suggestions across multiple languages.</p>
+                      <p className="text-gray-300 text-sm font-light">Receive personalized corrections and suggestions across multiple languages.</p>
                     </div>
                   </div>
                 </div>
