@@ -27,16 +27,15 @@ const HeroSection = () => {
       }}
     >
       {/* Globe Background - centered behind title and tagline */}
-      <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-15 z-0">
-        <div className="relative">
-          <div className="w-80 h-80 sm:w-96 sm:h-96 lg:w-[450px] lg:h-[450px]">
-            <svg
-              viewBox="0 0 400 400"
-              className="w-full h-full animate-pulse"
-              style={{
-                animationDuration: '6s',
-                animationDelay: '0.5s'
-              }}
+      <div className="absolute inset-0 flex justify-center items-center pointer-events-none z-0 opacity-15">
+        <div className="w-80 h-80 sm:w-96 sm:h-96 lg:w-[450px] lg:h-[450px] relative">
+          <svg
+            viewBox="0 0 400 400"
+            className="w-full h-full animate-pulse"
+            style={{
+              animationDuration: '6s',
+              animationDelay: '0.5s'
+            }}
             >
               {/* Latitude lines */}
               <ellipse cx="200" cy="200" rx="180" ry="60" fill="none" stroke="#FF5722" strokeWidth="1.5" />
