@@ -26,8 +26,8 @@ const HeroSection = () => {
         background: 'linear-gradient(135deg, #0b0c2a 0%, #2b00b5 100%)',
       }}
     >
-      {/* Globe Background - positioned behind left content */}
-      <div className="absolute left-0 top-1/2 transform -translate-y-1/2 pointer-events-none opacity-20">
+      {/* Globe Background - centered behind title and tagline */}
+      <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-15 lg:left-1/4 lg:translate-x-0">
         <div className="relative">
           <div className="w-80 h-80 sm:w-96 sm:h-96 lg:w-[450px] lg:h-[450px]">
             <svg
@@ -58,7 +58,7 @@ const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
 
           {/* Left Content - Hero Text (40% width) */}
-          <div className="lg:max-w-lg">
+          <div className="lg:max-w-lg text-center lg:text-left">
             {/* Main Heading */}
             <div className={`transition-all duration-1000 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
               <h1
@@ -83,7 +83,7 @@ const HeroSection = () => {
             </div>
 
             {/* CTA Button */}
-            <div className={`transition-all duration-1000 delay-600 transform ${isVisible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'}`}>
+            <div className={`transition-all duration-1000 delay-600 transform ${isVisible ? 'scale-100 opacity-100' : 'scale-95 opacity-0'} flex justify-center lg:justify-start`}>
               <Link
                 href="/login"
                 className="group inline-flex items-center gap-3 bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-medium transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-orange-500/25 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-400"
@@ -101,7 +101,7 @@ const HeroSection = () => {
 
               {/* Feature Card 1 */}
               <div className={`transition-all duration-700 delay-700 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-                <div className="bg-gradient-to-br from-white/10 via-white/5 to-transparent backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:from-white/15 hover:via-white/8 hover:to-white/5 transition-all duration-300 group shadow-xl">
+                <div className="bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-transparent backdrop-blur-md border border-cyan-300/20 rounded-2xl p-6 hover:from-cyan-400/15 hover:via-blue-400/8 hover:to-cyan-300/5 transition-all duration-300 group shadow-xl shadow-cyan-500/10">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0">
                       <div className="w-12 h-12 bg-gradient-to-br from-orange-400 to-orange-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
@@ -118,7 +118,7 @@ const HeroSection = () => {
 
               {/* Feature Card 2 */}
               <div className={`transition-all duration-700 delay-800 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-                <div className="bg-gradient-to-br from-white/10 via-white/5 to-transparent backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:from-white/15 hover:via-white/8 hover:to-white/5 transition-all duration-300 group shadow-xl">
+                <div className="bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-transparent backdrop-blur-md border border-cyan-300/20 rounded-2xl p-6 hover:from-cyan-400/15 hover:via-blue-400/8 hover:to-cyan-300/5 transition-all duration-300 group shadow-xl shadow-cyan-500/10">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0">
                       <div className="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
@@ -135,7 +135,7 @@ const HeroSection = () => {
 
               {/* Feature Card 3 */}
               <div className={`transition-all duration-700 delay-900 transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>
-                <div className="bg-gradient-to-br from-white/10 via-white/5 to-transparent backdrop-blur-md border border-white/20 rounded-2xl p-6 hover:from-white/15 hover:via-white/8 hover:to-white/5 transition-all duration-300 group shadow-xl">
+                <div className="bg-gradient-to-br from-cyan-500/10 via-blue-500/5 to-transparent backdrop-blur-md border border-cyan-300/20 rounded-2xl p-6 hover:from-cyan-400/15 hover:via-blue-400/8 hover:to-cyan-300/5 transition-all duration-300 group shadow-xl shadow-cyan-500/10">
                   <div className="flex items-start space-x-4">
                     <div className="flex-shrink-0">
                       <div className="w-12 h-12 bg-gradient-to-br from-green-400 to-green-600 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
