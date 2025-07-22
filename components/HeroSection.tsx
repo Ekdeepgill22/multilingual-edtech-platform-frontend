@@ -27,7 +27,7 @@ const HeroSection = () => {
       }}
     >
       {/* Globe Background - centered behind title and tagline */}
-      <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-15 lg:left-1/4 lg:translate-x-0">
+      <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 pointer-events-none opacity-15 lg:left-1/4 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-1/2">
         <div className="relative">
           <div className="w-80 h-80 sm:w-96 sm:h-96 lg:w-[450px] lg:h-[450px]">
             <svg
