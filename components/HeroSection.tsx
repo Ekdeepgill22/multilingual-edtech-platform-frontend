@@ -27,8 +27,8 @@ const HeroSection = () => {
       }}
     >
       {/* Globe Background - centered behind title and tagline */}
-      <div className="absolute inset-0 flex justify-center items-center pointer-events-none z-0 opacity-15">
-        <div className="w-80 h-80 sm:w-96 sm:h-96 lg:w-[450px] lg:h-[450px] relative">
+      <div className="absolute inset-20 flex justify-left items-center pointer-events-none z-0 opacity-15">
+        <div className="w-80 h-80 sm:w-96 sm:h-96 lg:w-[525px] lg:h-[450px] relative">
           <svg
             viewBox="0 0 400 400"
             className="w-full h-full animate-pulse"
